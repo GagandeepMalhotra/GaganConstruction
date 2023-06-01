@@ -107,7 +107,7 @@ textarea {
 
 .socials {
     margin-top: 20px;
-    display: inline-flex;
+    /*display: inline-flex;*/
 }
 
 .socials a {
