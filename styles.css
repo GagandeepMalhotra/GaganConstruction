@@ -13,6 +13,19 @@ h2{
 margin-bottom: 25px !important;
 }
 
+@viewport {
+    zoom: 1.0;
+    width: device-width;
+    initial-scale: 1.0;
+    maximum-scale: 1.0;
+    user-zoom: fixed;
+}
+
+/* Alternative method (for older devices) */
+@-ms-viewport {
+    width: device-width;
+}
+
 textarea {
     resize: none !important;
     overflow-y: scroll;
