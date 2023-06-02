@@ -346,6 +346,9 @@
                 allContainer.style.marginTop = '245px';
             }
         }
+        $(window).on('hashchange', function (e) {
+            history.replaceState("", document.title, e.originalEvent.oldURL);
+        });
     </script>
 
 </body>
