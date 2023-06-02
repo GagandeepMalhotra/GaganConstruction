@@ -162,7 +162,7 @@ textarea {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 115%;
+    width: 120%;
     height: 150%;
     border-radius: 50%;
     background-color: #f8f9fa;
@@ -180,8 +180,14 @@ textarea {
         }
 }
 
-  @media (max-width: 650px){
+  @media (max-width: 600px){
     .image-overlay:before {
-        width: 136%;
+        width: 140%;
     }
-  }
+    .socials a {
+        font-size: 25px;
+        padding: 8px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+  } 
