@@ -9,8 +9,8 @@ h1 {
     font-weight: 900 !important;
 }
 
-h2{
-margin-bottom: 25px !important;
+h2 {
+    margin-bottom: 25px !important;
 }
 
 @viewport {
@@ -148,15 +148,15 @@ textarea {
     background-color: #222 !important;
 }
 
-.social-links{
+.social-links {
     font-size: 22px;
 }
 
 .image-overlay {
     position: relative;
-  }
-  
-  .image-overlay:before {
+}
+
+.image-overlay:before {
     content: "";
     position: absolute;
     top: 50%;
@@ -169,30 +169,36 @@ textarea {
     z-index: -1;
     opacity: 0.85;
     box-shadow: 0 0 50px rgb(0 0 0 / 100%);
-  }
+}
 
-.col-sm-4{
+.testimonial {
+    text-align: center;
+}
+
+.footer-content{
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
-  @media (max-width: 767px) {
-    #extensions{
-    margin-top: 45px;
-    }
-    #interiors{
+@media (max-width: 767px) {
+    #extensions {
         margin-top: 45px;
-        }
+    }
+
+    #interiors {
+        margin-top: 45px;
+    }
 }
 
-  @media (max-width: 600px){
+@media (max-width: 600px) {
     .image-overlay:before {
         width: 140%;
     }
+
     .socials a {
         font-size: 25px;
         padding: 8px;
         margin-left: 10px;
         margin-right: 10px;
     }
-  } 
+}
