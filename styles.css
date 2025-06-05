@@ -180,7 +180,7 @@ textarea {
     font-weight: bold;
 }
 
-.fab-fa-instagram{
+.insta{
     width: 60px;
     justify-content: center;
 }
@@ -207,7 +207,7 @@ textarea {
         margin-right: 10px;
     }
 
-    .fab-fa-instagram{
+    .insta{
         width: auto;
         justify-content: center;
     }
