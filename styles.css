@@ -180,6 +180,11 @@ textarea {
     font-weight: bold;
 }
 
+.fab-fa-instagram{
+    width: 60px;
+    justify-content: center;
+}
+
 @media (max-width: 767px) {
     #extensions {
         margin-top: 45px;
@@ -200,5 +205,10 @@ textarea {
         padding: 8px;
         margin-left: 10px;
         margin-right: 10px;
+    }
+
+    .fab-fa-instagram{
+        width: auto;
+        justify-content: center;
     }
 }
